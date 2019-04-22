@@ -15,9 +15,10 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
+  binding.pry
+  
   def brand=(brand)
     @brand = brand
-    binding.pry
     BRANDS << brand 
   end
   
