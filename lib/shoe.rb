@@ -18,4 +18,6 @@ class Shoe
     GENRES << brand 
   end
   
+  GENRES.uniq
+  
 end
