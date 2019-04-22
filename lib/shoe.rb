@@ -17,7 +17,6 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    pry.binding
     BRANDS << brand 
   end
   
